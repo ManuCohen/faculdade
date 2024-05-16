@@ -1,0 +1,12 @@
+body {
+    background-image:url('Imagens-de-fundo-para-sites.jpg');
+    font-family: Arial, sans-serif; 
+    font-size: 33px;
+    color: #333; 
+    text-align: center;
+    background-size: 1500px, cover;
+}
+#button{
+    font-size: 20px;
+
+}

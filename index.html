@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Cadastro de Pessoas</h1>
+    <h2>Dados Pessoais</h2>
+
+    <form>
+            
+    Nome:<input type="text" id="nome" name="nome" value="Texto Padrão">
+    RA:<input type ="number" name="RA"  id="RA"> <br><br>
+    Data de Nascimento: <input type="date"  id="date"><br><br>
+    CPF:<input type="number" name="CPF"  id="CPF"> 
+    RG:<input type="number" name="RG"  id="RG"> <br><br>
+    Nota no vestibular:<input type = "text" name="nota"  id="nota"> <br><br>
+    Arquivo: <input type = "file" name="arquivo"  id="arquivo"> <br><br>
+    Email:<input type = "email" name="email" value="exemplo@dominio.com"  id="email"> <br><br>
+
+
+        <label for="pais">Curso</label>
+        <select id="curso" name="curso">
+            <option value="Ciencia da computação">Ciencia da computação</option>
+            <option value="ADS">ADS</option>
+            <option value="Direito">Direito</option>
+            <option value="Nutrição">Nutrição</option>
+        </select>
+       
+        <hr>
+
+        <h2> Endereço </h2>
+
+        Logadouro: <input type = "text" value="Exemplo: Rua Ali Perto" name="Logadouro"  id="Logadouro"/>
+        Numero: <input type = "number" name="Numero"  id="Numero"> <br><br>
+        Bairro: <input type = "text"name="Bairro"  id="Bairro"/>
+        Complemento: <input type = "text"name="Complemento"  id="Complemento"/>
+        CEP: <input type = "text"name="CEP"  id="CEP"/><br><br>
+            <label for="Estado">Estado</label>
+            <select id="Estado" name="Estado">
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="ES">ES</option>
+                <option value="MG">MG</option>
+            </select>    
+        Cidade: <input type = "text"name="Cidade"  id="Cidade"/>       
+                <hr>
+
+        <label> Li e Aceito:</label> <input type = "checkbox" id="Lieaceito"/>
+        <a href="">Termos de uso</a><br><br>
+        <button id="button">Enviar</button></a>
+        <button id="buttonLim">Limpar Campos</button></a><br>
+       
+
+</body>
+
+
+<script>
+window.alert("Preencha com atenção os campos abaixo")
+window.confirm("É aluno da faculdade?")
+window.prompt("Qual seu nome?")
+
+</script>
+</html>
