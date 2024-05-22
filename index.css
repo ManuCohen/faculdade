@@ -1,3 +1,9 @@
+body{
+    border-radius: 15px;
+    border: 2px solid rgba(8, 1, 48, 0.5);
+    padding: 20px;
+}
+
 #buttonLim {
     background-color: #c20d00;
     border: solid, black;
